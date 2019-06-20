@@ -1,5 +1,6 @@
 /*
   problem: given an array and a value X you have to find whether a pair exist in the array, whose sum is equal to X
+  time complexity: O(nlog n)
   solution: 1. sort the array
             2. take two pointers left and right, left indicates leftmost element and right indicates rightmost element
             3. iterate till left == right (step 3-6)
